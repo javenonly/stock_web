@@ -1,15 +1,8 @@
-import { LogLevel } from "../app/logging/logLevel";
-
+/**
+ * @license
+ * Copyright Akveo. All Rights Reserved.
+ * Licensed under the MIT License. See License.txt in the project root for license information.
+ */
 export const environment = {
   production: true,
-  serverUrl: "http://47.100.35.188/blw/",
-  fileServerUrl: "http://localhost:8080/",
-  // serverUrl: "http://47.100.35.188/",
-  // fileServerUrl: "http://47.100.35.188/",
-  log: {
-    loglevel: LogLevel.Error,
-    logConsole: false,
-    logLocalStorage: false,
-    logWebApi: true,
-  },
 };

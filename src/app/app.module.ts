@@ -6,15 +6,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
-import { BootstrapModalModule } from 'ngx-bootstrap-modal';
-import { ModalModule } from 'ngx-bootstrap/modal';
 import { HttpClientModule } from '@angular/common/http';
 import { CoreModule } from './@core/core.module';
 import { ThemeModule } from './@theme/theme.module';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-
 import {
   NbChatModule,
   NbDatepickerModule,
@@ -29,12 +25,10 @@ import {
   declarations: [AppComponent],
   imports: [
     BrowserModule,
-    BootstrapModalModule,
-    ModalModule,
     BrowserAnimationsModule,
     HttpClientModule,
     AppRoutingModule,
-    FormsModule,
+
     ThemeModule.forRoot(),
 
     NbSidebarModule.forRoot(),
