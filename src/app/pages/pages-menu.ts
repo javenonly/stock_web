@@ -12,15 +12,29 @@ export const MENU_ITEMS: NbMenuItem[] = [
     group: true,
   },
   {
-    title: 'Tables & Data',
+    title: 'K线形态检索',
     icon: 'grid-outline',
     children: [
       {
-        title: 'Smart Table',
+        title: '自定义检索',
+        link: '/pages/stockSearch',
+      },
+      {
+        title: '套餐检索',
+        link: '/pages/tables/smart-table',
+      },
+    ],
+  },
+  {
+    title: 'T-lib模式识别',
+    icon: 'grid-outline',
+    children: [
+      {
+        title: 'CDL2CROWS',
         link: '/pages/tables/smart-table',
       },
       {
-        title: 'Tree Grid',
+        title: 'CDL3BLACKCROWS',
         link: '/pages/tables/tree-grid',
       },
     ],
