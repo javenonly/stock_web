@@ -10,8 +10,8 @@
 
 export const environment = {
   production: false,
-  serverUrl: "http://localhost:8080/",
-  fileServerUrl: "http://localhost:8080/",
+  serverUrl: 'http://localhost:8080/',
+  fileServerUrl: 'http://localhost:8080/'
   // serverUrl: "http://47.100.35.188/blw/",
   // fileServerUrl: "http://47.100.35.188/",
 };
